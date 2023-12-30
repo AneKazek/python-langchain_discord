@@ -1,1 +1,1 @@
-# python-langchain_discord
+# Build AI DISCORD Bots with Pure Python
