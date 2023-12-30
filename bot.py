@@ -12,7 +12,7 @@ from langchain.schema import HumanMessage
 
 load_dotenv(find_dotenv())
 
-loader = TextLoader()
+loader = TextLoader("data/reference.txt")
 documents = loader.load()
 text_splitter = CharacterTextSplitter(chunk_size=300, chunk_overlap=100)
 texts = text_splitter.split_documents(documents)
